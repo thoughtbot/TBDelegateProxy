@@ -11,7 +11,7 @@
 		4D68FE671808B6E0008AA6DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D68FE601808B6E0008AA6DC /* InfoPlist.strings */; };
 		4D68FE681808B6E0008AA6DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D68FE621808B6E0008AA6DC /* Images.xcassets */; };
 		4D68FE691808B6E0008AA6DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D68FE631808B6E0008AA6DC /* main.m */; };
-		4D68FE6E1808B8B2008AA6DC /* TBDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D68FE6D1808B8B2008AA6DC /* TBDelegateProxy.m */; };
+		4D68FE721808BABB008AA6DC /* TBDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D68FE711808BABB008AA6DC /* TBDelegateProxy.m */; };
 		4DC8C5FC1808A08200D3A495 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC8C5FB1808A08200D3A495 /* Foundation.framework */; };
 		4DC8C5FE1808A08200D3A495 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC8C5FD1808A08200D3A495 /* CoreGraphics.framework */; };
 		4DC8C6001808A08200D3A495 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC8C5FF1808A08200D3A495 /* UIKit.framework */; };
@@ -25,8 +25,8 @@
 		4D68FE631808B6E0008AA6DC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4D68FE641808B6E0008AA6DC /* TBDelegateProxy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TBDelegateProxy-Info.plist"; sourceTree = "<group>"; };
 		4D68FE651808B6E0008AA6DC /* TBDelegateProxy-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBDelegateProxy-Prefix.pch"; sourceTree = "<group>"; };
-		4D68FE6C1808B8B2008AA6DC /* TBDelegateProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBDelegateProxy.h; sourceTree = "<group>"; };
-		4D68FE6D1808B8B2008AA6DC /* TBDelegateProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBDelegateProxy.m; sourceTree = "<group>"; };
+		4D68FE701808BABB008AA6DC /* TBDelegateProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBDelegateProxy.h; sourceTree = "<group>"; };
+		4D68FE711808BABB008AA6DC /* TBDelegateProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBDelegateProxy.m; sourceTree = "<group>"; };
 		4DC8C5F81808A08200D3A495 /* TBDelegateProxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBDelegateProxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC8C5FB1808A08200D3A495 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4DC8C5FD1808A08200D3A495 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -69,19 +69,20 @@
 			path = Support;
 			sourceTree = "<group>";
 		};
-		4D68FE6B1808B8A4008AA6DC /* TBDelegateProxy */ = {
+		4D68FE6F1808BABB008AA6DC /* TBDelegateProxy */ = {
 			isa = PBXGroup;
 			children = (
-				4D68FE6C1808B8B2008AA6DC /* TBDelegateProxy.h */,
-				4D68FE6D1808B8B2008AA6DC /* TBDelegateProxy.m */,
+				4D68FE701808BABB008AA6DC /* TBDelegateProxy.h */,
+				4D68FE711808BABB008AA6DC /* TBDelegateProxy.m */,
 			);
-			path = TBDelegateProxy;
+			name = TBDelegateProxy;
+			path = ../TBDelegateProxy;
 			sourceTree = "<group>";
 		};
 		4DC8C5EF1808A08200D3A495 = {
 			isa = PBXGroup;
 			children = (
-				4D68FE6B1808B8A4008AA6DC /* TBDelegateProxy */,
+				4D68FE6F1808BABB008AA6DC /* TBDelegateProxy */,
 				4D68FE5C1808B6E0008AA6DC /* Classes */,
 				4D68FE5F1808B6E0008AA6DC /* Support */,
 				4DC8C5FA1808A08200D3A495 /* Frameworks */,
@@ -193,7 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D68FE6E1808B8B2008AA6DC /* TBDelegateProxy.m in Sources */,
+				4D68FE721808BABB008AA6DC /* TBDelegateProxy.m in Sources */,
 				4D68FE691808B6E0008AA6DC /* main.m in Sources */,
 				4D68FE661808B6E0008AA6DC /* TBAppDelegate.m in Sources */,
 			);
