@@ -10,6 +10,8 @@
 
 @implementation TBDelegateProxy
 
+#pragma mark - NSObject
+
 - (id)forwardingTargetForSelector:(SEL)aSelector
 {
     if ([self.interceptorDelegate respondsToSelector:aSelector])

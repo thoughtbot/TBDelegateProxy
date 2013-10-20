@@ -6,8 +6,6 @@
 //  Copyright (c) 2013 thoughtbot. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
 @interface TBAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D2D8C061813874700250DFE /* TBTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D8C051813874700250DFE /* TBTableView.m */; };
+		4D2D8C0918138D6C00250DFE /* TBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D8C0818138D6C00250DFE /* TBViewController.m */; };
 		4D68FE661808B6E0008AA6DC /* TBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D68FE5E1808B6E0008AA6DC /* TBAppDelegate.m */; };
 		4D68FE671808B6E0008AA6DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D68FE601808B6E0008AA6DC /* InfoPlist.strings */; };
 		4D68FE681808B6E0008AA6DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D68FE621808B6E0008AA6DC /* Images.xcassets */; };
@@ -18,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D2D8C041813874700250DFE /* TBTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBTableView.h; sourceTree = "<group>"; };
+		4D2D8C051813874700250DFE /* TBTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBTableView.m; sourceTree = "<group>"; };
+		4D2D8C0718138D6C00250DFE /* TBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBViewController.h; sourceTree = "<group>"; };
+		4D2D8C0818138D6C00250DFE /* TBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBViewController.m; sourceTree = "<group>"; };
 		4D68FE5D1808B6E0008AA6DC /* TBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBAppDelegate.h; sourceTree = "<group>"; };
 		4D68FE5E1808B6E0008AA6DC /* TBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBAppDelegate.m; sourceTree = "<group>"; };
 		4D68FE611808B6E0008AA6DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -53,6 +59,10 @@
 			children = (
 				4D68FE5D1808B6E0008AA6DC /* TBAppDelegate.h */,
 				4D68FE5E1808B6E0008AA6DC /* TBAppDelegate.m */,
+				4D2D8C041813874700250DFE /* TBTableView.h */,
+				4D2D8C051813874700250DFE /* TBTableView.m */,
+				4D2D8C0718138D6C00250DFE /* TBViewController.h */,
+				4D2D8C0818138D6C00250DFE /* TBViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -195,6 +205,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D68FE721808BABB008AA6DC /* TBDelegateProxy.m in Sources */,
+				4D2D8C0918138D6C00250DFE /* TBViewController.m in Sources */,
+				4D2D8C061813874700250DFE /* TBTableView.m in Sources */,
 				4D68FE691808B6E0008AA6DC /* main.m in Sources */,
 				4D68FE661808B6E0008AA6DC /* TBAppDelegate.m in Sources */,
 			);
